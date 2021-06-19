@@ -123,3 +123,7 @@ out
 .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+
+# Do not version dist/ as it's pushed to a different branch for deploy
+dist/
