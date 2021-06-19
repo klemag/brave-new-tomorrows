@@ -2,6 +2,8 @@
   <div class="hello">
     <img alt="Vue logo" src="../assets/logo.png" width="200">
     <h1>Coming Soon</h1>
+    <p>In the meantime, here's my dog</p>
+    <img alt="qt3.14" src="../assets/dog.jpeg" width="300">
   </div>
 </template>
 
