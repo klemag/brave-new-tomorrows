@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-make install
+make install_deps
 ```
 
 ### Compiles and hot-reloads for development
