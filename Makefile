@@ -9,8 +9,3 @@ install_deps:
 
 lint:
 	yarn lint
-
-deploy:
-	yarn build
-	cp CNAME dist/
-	git subtree push --prefix dist origin gh-pages
