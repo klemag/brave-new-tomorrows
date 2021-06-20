@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <img alt="Vue logo" src="../assets/logo.png" width="200">
-    <h1>Coming Soon</h1>
+    <h1 class="title is-1">Brave New Tomorrows</h1>
+    <h2 class="title">Coming Soon</h2>
     <p>In the meantime, here's my dog</p>
-    <img alt="qt3.14" src="../assets/dog.jpeg" width="300">
+    <img alt="qt3.14" width="300" src="../assets/dog.jpeg">
   </div>
 </template>
 
@@ -14,18 +14,11 @@ export default {
 </script>
 
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+h1 { 
+  text-transform: uppercase;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.hello {
+  text-align: center;
+  margin-top: 1em;
 }
 </style>

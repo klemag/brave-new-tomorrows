@@ -1,3 +1,4 @@
+import './custom.scss';
 import { createApp } from 'vue'
 // import VueRouter from 'vue-router';
 import { createWebHistory, createRouter } from 'vue-router';
