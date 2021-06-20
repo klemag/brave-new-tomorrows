@@ -60,7 +60,7 @@ export default {
 .navbar-item {
   text-align: right;
 }
-.navbar {
-  background-color: #1f2d22;
+.navbar-brand {
+  margin-left: 21em;
 }
 </style>

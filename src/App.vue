@@ -10,12 +10,10 @@
 
 <script>
 import Navbar from "./layout/navbar.vue";
-// import Footer from "./layout/footer.vue";
 export default {
   name: "App",
   components: {
     Navbar,
-    // Footer,
   },
 };
 </script>
@@ -25,7 +23,5 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #8c8e91;
-
 }
 </style>
