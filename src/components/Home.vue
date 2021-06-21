@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home content">
     <h1 class="title is-1">Brave New Tomorrows</h1>
     <p>Can you imagine different tomorrows?</p>
     <p>What would it be like to live in that world?</p>
@@ -35,24 +35,27 @@
 
     <p>We would like the project to include the following:</p>
 
-    <ul>
-      <li>
-        Topics Generation Sessions: let’s gather and brainstorm topics of
-        interest
-      </li>
-      <li>
-        Design Fiction Sessions: we all imagine possible futures for a specific
-        topic we’ve picked for the day
-      </li>
-      <li>
-        Creative Sessions: time to create with the stories we came up with -
-        writing, painting, drawing.. anything you fancy!
-      </li>
-      <li>
-        Educational Sessions: we’ll invite experts in the field to share their
-        experience on some of our topics
-      </li>
-    </ul>
+    <div class="content">
+      <ul>
+        <li>
+          Topics Generation Sessions: let’s gather and brainstorm topics of
+          interest
+        </li>
+        <li>
+          Design Fiction Sessions: we all imagine possible futures for a specific
+          topic we’ve picked for the day
+        </li>
+        <li>
+          Creative Sessions: time to create with the stories we came up with -
+          writing, painting, drawing.. anything you fancy!
+        </li>
+        <li>
+          Educational Sessions: we’ll invite experts in the field to share their
+          experience on some of our topics
+        </li>
+      </ul>
+    </div>
+
   </div>
 </template>
 
@@ -63,6 +66,9 @@ export default {
 </script>
 
 <style scoped>
+ul {
+  list-style: disc;
+}
 .home {
   text-align: left;
   margin-top: 1em;
