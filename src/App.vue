@@ -4,17 +4,18 @@
     <div class="app-contents container is-fluid">
       <router-view></router-view>
     </div>
+    <footer></footer>
   </div>
 </template>
 
 <script>
-import Navbar from './layout/navbar.vue';
+import Navbar from "./layout/navbar.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Navbar,
   },
-}
+};
 </script>
 
 <style>

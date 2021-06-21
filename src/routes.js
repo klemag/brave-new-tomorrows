@@ -1,17 +1,16 @@
-import HelloWorld from './components/HelloWorld.vue';
-import NotFound from './components/NotFound.vue';
+import Home from "./components/Home.vue";
+import NotFound from "./components/NotFound.vue";
 
-const routes = [
-  {
-    path: '/home',
-    alias: '/',
-    component: HelloWorld,
-  },
-  {
-    path: '/:pathMatch(.*)*',
-    component: NotFound,
-    name: '404',
-  },
+const routes = [{
+        path: "/home",
+        alias: "/",
+        component: Home,
+    },
+    {
+        path: "/:pathMatch(.*)*",
+        component: NotFound,
+        name: "404",
+    },
 ];
 
 export default routes;
