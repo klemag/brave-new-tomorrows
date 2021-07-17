@@ -61,7 +61,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: 'Home',
 };
 </script>
 
@@ -69,19 +69,19 @@ export default {
 ul {
   list-style: disc;
 }
+
 .home {
   text-align: left;
-  margin-top: 1em;
   margin-left: 20em;
   margin-right: 20em;
   margin-top: 2em;
 }
+
 .quote {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 2em;
   font-size: 1.3em;
   font-style: italic;
-
 }
 </style>

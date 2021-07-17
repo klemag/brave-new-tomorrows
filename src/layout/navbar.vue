@@ -60,6 +60,7 @@ export default {
 .navbar-item {
   text-align: right;
 }
+
 .navbar-brand {
   margin-left: 21em;
 }
