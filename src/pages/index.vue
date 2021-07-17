@@ -1,14 +1,15 @@
 <template>
-  <div class="home content">
+  <div class="home content container">
     <h1 class="title is-1">Brave New Tomorrows</h1>
-    <p>Can you imagine different tomorrows?</p>
-    <p>What would it be like to live in that world?</p>
-    <p>
+    <div class="word-rant">
+      <p>Can you imagine different tomorrows?</p>
+      <p>What would it be like to live in that world?</p>
+      <p>
       How do you think technologies being developed today will affect our
       tomorrow?
-    </p><br>
+      </p><br>
 
-    <p>
+      <p>
       This meetup aims to build a creative and collaborative space to combine
       world-building techniques with design fiction to discover unseen potential
       futures. Join us to speculatively build prototypes of possible tomorrows,
@@ -19,41 +20,42 @@
       imagine together the future we want (or don’t). The ‘how’ is open, through
       writing, art, short films, prototypes, mementos of experiences and
       anything that inspires us and the people around us.
-    </p>
+      </p>
 
-    <p class="quote">
+      <p class="quote">
       “The beauty of dystopia is that it lets us vicariously experience future
       worlds - but we still have the power to change our own”. Ally Condie
-    </p>
+      </p>
 
-    <h2 class="title is-2">What to expect?</h2>
-    <p>
+      <h2 class="title is-2">What to expect?</h2>
+      <p>
       We are just starting! This project is very much an evolving one and we
       expect things to change as more people get involved. If you are interested
       and want to brainstorm more ideas, please get in touch.
-    </p>
+      </p>
 
-    <p>We would like the project to include the following:</p>
+      <p>We would like the project to include the following:</p>
 
-    <div class="content">
-      <ul>
-        <li>
-          Topics Generation Sessions: let’s gather and brainstorm topics of
-          interest
-        </li>
-        <li>
-          Design Fiction Sessions: we all imagine possible futures for a specific
-          topic we’ve picked for the day
-        </li>
-        <li>
-          Creative Sessions: time to create with the stories we came up with -
-          writing, painting, drawing.. anything you fancy!
-        </li>
-        <li>
-          Educational Sessions: we’ll invite experts in the field to share their
-          experience on some of our topics
-        </li>
-      </ul>
+      <div class="content">
+        <ul>
+          <li>
+            Topics Generation Sessions: let’s gather and brainstorm topics of
+            interest
+          </li>
+          <li>
+            Design Fiction Sessions: we all imagine possible futures for a specific
+            topic we’ve picked for the day
+          </li>
+          <li>
+            Creative Sessions: time to create with the stories we came up with -
+            writing, painting, drawing.. anything you fancy!
+          </li>
+          <li>
+            Educational Sessions: we’ll invite experts in the field to share their
+            experience on some of our topics
+          </li>
+        </ul>
+      </div>
     </div>
 
   </div>
@@ -72,8 +74,6 @@ ul {
 
 .home {
   text-align: left;
-  margin-left: 20em;
-  margin-right: 20em;
   margin-top: 2em;
 }
 

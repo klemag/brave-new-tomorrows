@@ -3,6 +3,9 @@ export default {
   target: 'static',
 
   srcDir: 'src/',
+  generate: {
+    dir: 'docs/',
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'brave-new-tomorrows',
@@ -22,8 +25,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    // 'balm-ui/dist/balm-ui.css',
-    'custom.scss',
+    '@/assets/custom.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

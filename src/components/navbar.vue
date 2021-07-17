@@ -6,9 +6,9 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <router-link :to="{ path: '/' }" class="navbar-item">
+        <NuxtLink to="/" class="navbar-item">
           <img alt="logo" width="30" src="../assets/logo.png" />
-        </router-link>
+        </NuxtLink>
 
         <a
           role="button"
@@ -26,12 +26,12 @@
       </div>
       <div id="navbarBasicExample" class="navbar-menu" :class="hamburgerClass">
         <div class="navbar-start">
-          <router-link :to="{ path: '/' }" class="navbar-item">
+          <NuxtLink to="/" class="navbar-item">
             Home
-          </router-link>
-          <router-link :to="{ path: '/blog' }" class="navbar-item">
+          </NuxtLink>
+          <NuxtLink to="/blog" class="navbar-item">
             Blog
-          </router-link>
+          </NuxtLink>
         </div>
       </div>
     </nav>
@@ -45,12 +45,11 @@ export default {
   }),
   computed: {
     hamburgerClass() {
-      return this.showHamburger ? "is-active" : "";
+      return this.showHamburger ? 'is-active' : '';
     },
   },
   methods: {
     toggleHamburger() {
-      console.log("clicked");
       this.showHamburger = !this.showHamburger;
     },
   },

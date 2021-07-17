@@ -15,5 +15,6 @@ module.exports = {
     'vue',
   ],
   rules: {
+    'empty-line-before-comment': 'off',
   },
 };
