@@ -61,5 +61,6 @@ export default {
   text-align: right;
 }
 .navbar-brand {
+  margin-left: 1%;
   }
 </style>

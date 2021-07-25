@@ -1,6 +1,6 @@
 <template>
   <div class="coolheader content">
-    <h1 class="title is-1">Brave New Tomorrows &#x221e</h1>
+    <h1 class="title is-1">Brave New Tomorrows <span>&#8734;</span> </h1>
     </div>
     <div class="home content">
     <p class="quote" style="text-align:left">
@@ -26,7 +26,7 @@ They design brave new tomorrows.
       tomorrow?
     </p><br>
     <p>
-      The <a href="https://www.meetup.com/brave-new-tomorrows-creative-meetup/" class="btn btn-dark" target="_blank">Brave New Tomorrows meetup</a> (based in London) aims to build a creative and collaborative space to combine
+      The <a href="https://www.meetup.com/brave-new-tomorrows-creative-meetup/">Brave New Tomorrows meetup</a> (based in London) aims to build a creative and collaborative space to combine
       world-building techniques with design fiction to discover unseen potential
       futures. Join us to speculatively build prototypes of possible tomorrows,
       represent worlds and understand the implications of our potential futures.
@@ -77,15 +77,12 @@ They design brave new tomorrows.
           Educational Sessions: we’ll invite experts in the field to share their
           experience on some of our topics.
         </li>
-      </ul><br><br>
-                                Contact us at:<br>
-                                <a href="mailto:hello@bravenewtomorrows.org">hello@bravenewtomorrows.org</a>
- <br><br>
-
+      </ul>
     </div>
-
-
-
+    <br><br>
+      Contact us at:<br>
+      <a href="mailto:hello@bravenewtomorrows.org">hello@bravenewtomorrows.org</a>
+ <br><br>
   </div>
 </template>
 
