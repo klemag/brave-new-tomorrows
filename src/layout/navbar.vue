@@ -7,7 +7,7 @@
     >
       <div class="navbar-brand">
         <router-link :to="{ path: '/' }" class="navbar-item">
-          <img alt="logo" width="30" src="../assets/logo.png" />
+          <img alt="logo" width="40" src="../assets/logo.png" />
         </router-link>
 
         <a
@@ -61,6 +61,5 @@ export default {
   text-align: right;
 }
 .navbar-brand {
-  margin-left: 21em;
-}
+  }
 </style>

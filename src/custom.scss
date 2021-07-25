@@ -2,18 +2,21 @@
 // @import "~bulma/bulma";
 @charset "utf-8";
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
 // Update Bulma's global variables
-$family-sans-serif: "Teko",
+$family-sans-serif: "Uchen",
 sans-serif;
-$grey-dark: #2d3741;
-$grey-light: #bec5c4;
+$grey-dark: #000000;
+$green: #5ece9ae3;
+$grey-light: #d8eed2;
 $primary: $grey-dark;
 $link: $grey-light;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 // Update some of Bulma's component variables
-$body-background-color: $grey-light;
+$body-background-color: $green;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
@@ -27,3 +30,4 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+
