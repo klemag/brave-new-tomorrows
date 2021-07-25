@@ -7,7 +7,7 @@
     >
       <div class="navbar-brand">
         <NuxtLink to="/" class="navbar-item">
-          <img alt="logo" width="30" src="../assets/logo.png" />
+          <img alt="logo" width="40" src="../assets/logo.png" />
         </NuxtLink>
 
         <a
@@ -61,6 +61,6 @@ export default {
 }
 
 .navbar-brand {
-  margin-left: 21em;
+  margin-left: 1%;
 }
 </style>

@@ -1,16 +1,33 @@
 <template>
-  <div class="home content container">
-    <h1 class="title is-1">Brave New Tomorrows</h1>
-    <div class="word-rant">
-      <p>Can you imagine different tomorrows?</p>
-      <p>What would it be like to live in that world?</p>
-      <p>
+  <div>
+    <div class="coolheader content">
+      <h1 class="title is-1">Brave New Tomorrows <span>&#8734;</span> </h1>
+    </div>
+    <div class="home content">
+      <p class="quote" style="text-align: left;">
+      It's 2021 on Planet Earth.
+      The world has gone through a complete and unimaginable metamorphosis.
+      Transferred to a cold screen it became remote and distant.
+      Time felt like an unreachable illusion.
+      The fast pulse of Earth slowed down. (...)
+      After months in isolation, civilization begins to emerge again.
+      But human imagination has not been idle.
+      Humans now dare to dream and imagine together.
+      They dream of new tomorrows.
+      They design brave new tomorrows.
+      </p>
+    </div>
+    <div class="coolheader content">
+      <h2 class="title is-2">A speculative and creative meetup</h2>
+    </div>
+    <div class="home content">
+      <p>Can you imagine different tomorrows?<br>
+      What would it be like to live in that world?<br>
       How do you think technologies being developed today will affect our
       tomorrow?
       </p><br>
-
       <p>
-      This meetup aims to build a creative and collaborative space to combine
+      The <a href="https://www.meetup.com/brave-new-tomorrows-creative-meetup/">Brave New Tomorrows meetup</a> (based in London) aims to build a creative and collaborative space to combine
       world-building techniques with design fiction to discover unseen potential
       futures. Join us to speculatively build prototypes of possible tomorrows,
       represent worlds and understand the implications of our potential futures.
@@ -20,14 +37,25 @@
       imagine together the future we want (or don’t). The ‘how’ is open, through
       writing, art, short films, prototypes, mementos of experiences and
       anything that inspires us and the people around us.
+      </p> <br>
+      <p>In case you are wondering, the name of the meetup is based on the book <a href="https://en.wikipedia.org/wiki/Brave_New_World">"Brave new world"</a> by Aldous Huxley.
       </p>
-
       <p class="quote">
       “The beauty of dystopia is that it lets us vicariously experience future
       worlds - but we still have the power to change our own”. Ally Condie
       </p>
 
       <h2 class="title is-2">What to expect?</h2>
+      <p>
+      worlds - but we still have the power to change our own”. <br>Ally Condie
+      </p>
+
+    </div>
+    <div class="coolheader content">
+      <h2 class="title is-2">What to expect?</h2>
+    </div>
+    <div class="home content">
+
       <p>
       We are just starting! This project is very much an evolving one and we
       expect things to change as more people get involved. If you are interested
@@ -40,24 +68,27 @@
         <ul>
           <li>
             Topics Generation Sessions: let’s gather and brainstorm topics of
-            interest
+            interest.
           </li>
           <li>
             Design Fiction Sessions: we all imagine possible futures for a specific
-            topic we’ve picked for the day
+            topic we’ve picked for the day.
           </li>
           <li>
             Creative Sessions: time to create with the stories we came up with -
-            writing, painting, drawing.. anything you fancy!
+            writing, painting, drawing... anything you fancy!
           </li>
           <li>
             Educational Sessions: we’ll invite experts in the field to share their
-            experience on some of our topics
+            experience on some of our topics.
           </li>
         </ul>
       </div>
+      <br><br>
+      Contact us at:<br>
+      <a href="mailto:hello@bravenewtomorrows.org">hello@bravenewtomorrows.org</a>
+      <br><br>
     </div>
-
   </div>
 </template>
 
@@ -73,15 +104,28 @@ ul {
 }
 
 .home {
-  text-align: left;
-  margin-top: 2em;
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.1em;
+}
+
+.coolheader {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #c5cac9;
+  font-family: Tourney, sans-serif;
 }
 
 .quote {
-  text-align: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  font-size: 1.3em;
+  text-align: right;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 1em;
   font-style: italic;
 }
 </style>
