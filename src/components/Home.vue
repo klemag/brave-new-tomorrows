@@ -99,13 +99,14 @@ ul {
 .home {
   text-align: center;
   margin-top: 1%;
-  margin-left: 32%;
-  margin-right: 32%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.1em;
   }
 .coolheader {
   text-align: center;
-  margin-left: 32%;
-  margin-right: 32%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 5%;
   margin-bottom: 2%;
   color: #c5cac9;
@@ -113,7 +114,7 @@ ul {
 }
 .quote {
   text-align: right;
-  margin-top: 2%;
+  margin-top: 4%;
   margin-bottom: 2%;
   font-size: 1.0em;
   font-style: italic;
