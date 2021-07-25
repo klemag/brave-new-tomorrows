@@ -42,11 +42,6 @@
       </p>
       <p class="quote">
       “The beauty of dystopia is that it lets us vicariously experience future
-      worlds - but we still have the power to change our own”. Ally Condie
-      </p>
-
-      <h2 class="title is-2">What to expect?</h2>
-      <p>
       worlds - but we still have the power to change our own”. <br>Ally Condie
       </p>
 
